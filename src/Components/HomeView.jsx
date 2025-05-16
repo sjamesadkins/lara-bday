@@ -1,6 +1,5 @@
 
-import React from 'react';
-import lara from '../assets/photos/lara_ear.jpg';
+import lara from '/assets/photos/lara_ear.jpg';
 
 function HomeView() {
   return (

@@ -1,24 +1,16 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import OffCanvasNav from './Components/OffCanvasNav';
 import MusicPlayer from './Components/MusicPlayer';
 import HomeView from './Components/HomeView';
 import PhotosView from './Components/PhotosView';
 import ShoutOutsView from './Components/ShoutOutsView';
 import GiftView from './Components/GiftView';
-import follow from './assets/music/follow.mp3';
-import blackbird from './assets/music/blackbird.mp3';
-import duke from './assets/music/duke.mp3';
-import sleeping from './assets/music/sleeping.mp3';
-
-
 
 const musicPlaylist = [
-  { src: follow, artist: 'Death Cab for Cutie', title: 'I Will Follow You Into the Dark'},
-  { src: blackbird, artist: 'The Beatles', title: 'Blackbird'},
-  { src: duke, artist: 'Stevie Wonder', title: 'Sir Duke'},
-  { src: sleeping, artist: 'The Beatles', title: "I'm Only Sleeping"},
-
-
+  { src: '/assets/music/follow.mp3', artist: 'Death Cab for Cutie', title: 'I Will Follow You Into the Dark'},
+  { src: '/assets/music/blackbird.mp3', artist: 'The Beatles', title: 'Blackbird'},
+  { src: '/assets/music/duke.mp3', artist: 'Stevie Wonder', title: 'Sir Duke'},
+  { src: '/assets/music/sleeping.mp3', artist: 'The Beatles', title: "I'm Only Sleeping"},
   ]
 
 function App() {

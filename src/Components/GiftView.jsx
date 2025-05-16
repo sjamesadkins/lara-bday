@@ -15,10 +15,12 @@ function GiftView() {
   return (
     <div className="view">
       <h1>Gift</h1>
-      <p>{prompts[step]?.text}</p>
-      {prompts[step]?.options.map((opt, i) => (
-        <button key={i} onClick={nextStep}>{opt}</button>
-      ))}
+      <div className="gift-box">
+        <p>{prompts[step]?.text}</p>
+        {prompts[step]?.options.map((opt, i) => (
+          <button key={i} onClick={nextStep}>{opt}</button>
+        ))}
+      </div>
     </div>
   );
 }
