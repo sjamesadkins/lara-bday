@@ -1,15 +1,17 @@
 
-import lara from '/assets/photos/lara_ear.jpg';
+import lara from './InternalAssets/1.jpg';
 
 function HomeView() {
   return (
     <div className="view">
       <div>
         <h1>Happy Birthday, Lara!!!</h1>
+        <h2>You are so Loved!</h2>
         <h3>Hit 'Play' on the music player below...</h3>
       </div>
       <div>
-        <img src={lara} alt="Lara and Sam" width="900" height="1000" />
+        <br/><br/><br/>
+        <img src={lara} alt="Lara" width="1200" height="800" />
       </div>
     </div>
   );

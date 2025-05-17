@@ -57,7 +57,16 @@ body, html, #root {
   padding: 1rem;
   background-color: #ffc0cb;
   border-radius: 12px;
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.gift-view {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 10%;
+  margin-left: 30%;
+  padding: 1rem;
+  background-color: #ffc0cb;
+  border-radius: 12px;
 }
 
 .view h1 {
@@ -66,7 +75,7 @@ body, html, #root {
   text-align: center;
 }
 
-.view h3 {
+.view h2, h3 {
   color: #0abab5;
   text-align: center;
 }

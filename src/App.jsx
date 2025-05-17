@@ -11,6 +11,8 @@ const musicPlaylist = [
   { src: '/assets/music/blackbird.mp3', artist: 'The Beatles', title: 'Blackbird'},
   { src: '/assets/music/duke.mp3', artist: 'Stevie Wonder', title: 'Sir Duke'},
   { src: '/assets/music/sleeping.mp3', artist: 'The Beatles', title: "I'm Only Sleeping"},
+  { src: '/assets/music/sparks.mp3', artist: 'Coldplay', title: 'Sparks'},
+  { src: '/assets/music/la.mp3', artist: 'Nada Surf', title: 'La Pour Ça'},
   ]
 
 function App() {

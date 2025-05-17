@@ -10,4 +10,4 @@ for (const path in modules) {
   })
 }
 
-export default photos
+export default photos;
