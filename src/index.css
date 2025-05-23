@@ -126,6 +126,10 @@ body, html, #root {
   height: 30px;
 }
 
+.music-player-input {
+  font-weight: bold;
+}
+
 .track-info {
   font-size: 0.9rem;
   font-weight: bold;
