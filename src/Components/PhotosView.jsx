@@ -2,11 +2,7 @@ import photos from '../Components/AssetLists/photos.js'
 
 function PhotosView() {
 
-  photos.sort((a, b) => {
-  
-  return Number(a) - Number(b);
-  });
-
+  console.log(photos)
   return (
     <div className="view">
       <h1>Photos</h1>
@@ -14,7 +10,7 @@ function PhotosView() {
         {photos.map((src, index) => {
           console.log(src)
           return (
-          <img key={index} src={`/assets/photos/${src}`} alt={`upload-${index}`} />
+          <img key={index} src={`/assets/photos/${src}.jpg`} alt={`upload-${index}`} />
         )})}
       </div>
     </div>

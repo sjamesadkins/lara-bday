@@ -27,15 +27,18 @@ function MusicPlayer({ playlist }) {
         <div className="track-info">
           {playlist[current].artist} - {playlist[current].title}
         </div>
-        <input
-          type="range"
-          min="0"
-          max="1"
-          step="0.01"
-          value={volume}
-          onChange={handleVolumeChange}
-        />
-        <div className="music-player-input" >Volume: {Math.round(volume * 100)}%</div>
+        <div className='music-player-input'>
+          <input
+            type="range"
+            // className='music-player-input'
+            min="0"
+            max="1"
+            step="0.01"
+            value={volume}
+            onChange={handleVolumeChange}
+          />
+          <div>Volume: {Math.round(volume * 100)}%</div>
+        </div>
         <div className="controls">
           <button onClick={prev}>⏮</button>
           <button onClick={() => audioRef.current?.pause()}>⏸</button>

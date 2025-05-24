@@ -6,7 +6,6 @@ function HomeView() {
     <div className="view">
       <div>
         <h1>Happy Birthday, Lara!!!</h1>
-        <h2>You are so Loved!</h2>
         <h3>Hit 'Play' on the music player below...</h3>
       </div>
       <div>
