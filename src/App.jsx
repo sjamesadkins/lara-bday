@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import OffCanvasNav from './Components/OffCanvasNav';
-import MusicPlayer from './Components/MusicPlayer';
-import HomeView from './Components/HomeView';
-import PhotosView from './Components/PhotosView';
-import ShoutOutsView from './Components/ShoutOutsView';
-import GiftView from './Components/GiftView';
+import OffCanvasNav from './Components/OffCanvasNav.jsx';
+import MusicPlayer from './Components/MusicPlayer.jsx';
+import HomeView from './Components/HomeView.jsx';
+import PhotosView from './Components/PhotosView.jsx';
+import ShoutOutsView from './Components/ShoutOutsView.jsx';
+import GiftView from './Components/GiftView.jsx';
 
 const musicPlaylist = [
   { src: '/assets/music/follow.mp3', artist: 'Death Cab for Cutie', title: 'I Will Follow You Into the Dark'},

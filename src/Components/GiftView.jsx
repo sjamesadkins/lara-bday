@@ -1,6 +1,6 @@
 
 // import { useState } from 'react';
-import riddles from '../Components/AssetLists/riddles';
+import riddles from '../Components/AssetLists/riddles.js';
 import { useState } from 'react';
 
 const questions = [
