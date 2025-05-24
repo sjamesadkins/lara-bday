@@ -1,8 +1,9 @@
 {
   "name": "lara-bday",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://sjamesadkins.github.io/lara-bday/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
