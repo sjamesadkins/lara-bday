@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import OffCanvasNav from './Components/OffCanvasNav.jsx';
-import MusicPlayer from './Components/MusicPlayer.jsx';
-import HomeView from './Components/HomeView.jsx';
-import PhotosView from './Components/PhotosView.jsx';
-import ShoutOutsView from './Components/ShoutOutsView.jsx';
-import GiftView from './Components/GiftView.jsx';
+// import MusicPlayer from './Components/MusicPlayer.jsx';
+// import HomeView from './Components/HomeView.jsx';
+// import PhotosView from './Components/PhotosView.jsx';
+// import ShoutOutsView from './Components/ShoutOutsView.jsx';
+// import GiftView from './Components/GiftView.jsx';
 
 const musicPlaylist = [
   { src: '/assets/music/follow.mp3', artist: 'Death Cab for Cutie', title: 'I Will Follow You Into the Dark'},
@@ -21,13 +21,13 @@ function App() {
   return (
     <div className="app">
       <OffCanvasNav currentView={view} setView={setView} />
-      <div className="main-view">
+      {/* <div className="main-view">
         {view === 'Home' && <HomeView />}
         {view === 'Photos' && <PhotosView />}
         {view === 'ShoutOuts' && <ShoutOutsView />}
         {view === 'Gift' && <GiftView />}
       </div>
-      <MusicPlayer playlist={musicPlaylist} />
+      <MusicPlayer playlist={musicPlaylist} /> */}
     </div>
   );
 }
