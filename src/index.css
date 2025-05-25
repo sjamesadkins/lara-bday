@@ -59,6 +59,11 @@ body, html, #root {
   border-radius: 12px;
 }
 
+.view img {
+  width: 1200px;
+  height: 800px;
+}
+
 .gift-view {
   max-width: 500px;
   margin: auto;
@@ -90,7 +95,6 @@ body, html, #root {
 .photo-grid img {
   width: 100%;
   height: auto;
-  /* border-radius: 8px; */
 }
 
 .video-column {
@@ -130,6 +134,7 @@ body, html, #root {
   font-weight: bold;
   text-align: center;
   margin-left: 0;
+  margin-right: 15%;
 }
 
 .track-info {
@@ -145,7 +150,6 @@ body, html, #root {
   border: none;
   font-size: 1.2rem;
   cursor: pointer;
-  margin-left: 10px;
 }
 
 .controls button:hover {
@@ -164,4 +168,72 @@ img {
 .gift-box {
   padding: 100px;
   text-align: center;
+}
+
+/* Devices with width up to 767px (phones) */
+@media only screen and (max-width: 767px) {
+
+  .main-view {
+    max-width: 500px;
+  }
+
+  .view {
+    max-width: 500px;
+    margin-right: 30%;
+
+  }
+
+  .view img {
+    width: 350px;
+    height: 275px;
+  }
+
+  .offcanvas {
+    width: 75px;
+  }
+
+  .music-player {
+
+    font-size: 75%;
+  }
+
+  .track-info {
+    font-size: 75%;
+    width: 150px;
+  }
+
+  .music-player-input {
+    margin-right: 10%;
+  }
+
+  .video-column {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 20%;
+  }
+
+  .view h1 {
+    margin-right: 5%;
+  }
+
+  .view h2, h3 {
+    margin-right: 5%;
+  }
+
+  .gift-view {
+    max-width: 300px;
+    margin-left: 10%;
+  }
+
+  .photo-grid {
+    /* display: grid; */
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: 40px;
+    margin-top: 1rem; */
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
 }

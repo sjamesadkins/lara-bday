@@ -10,7 +10,7 @@ function PhotosView() {
         {photos.map((src, index) => {
           console.log(src)
           return (
-          <img key={index} src={`/assets/photos/${src}.jpg`} alt={`upload-${index}`} />
+          <img key={index} src={`/lara-bday/assets/photos/${src}.jpg`} alt={`upload-${index}`} />
         )})}
       </div>
     </div>

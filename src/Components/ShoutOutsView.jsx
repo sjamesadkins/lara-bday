@@ -8,7 +8,7 @@ function ShoutOutsView() {
       <h1>Shout Outs</h1>
       <div className="video-column">
         {videos.map((src, index) => (
-          <video key={index} src={`/assets/videos/${src}`} controls width="70%" />
+          <video key={index} src={`/lara-bday/assets/videos/${src}`} controls width="70%" />
         ))}
       </div>
     </div>
