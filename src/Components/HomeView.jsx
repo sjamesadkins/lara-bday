@@ -10,7 +10,6 @@ function HomeView() {
       </div>
       <div>
         <br/><br/><br/>
-        {/* <img src={lara} alt="Lara" width="1200" height="800" /> */}
         <img src={lara} alt="Lara"/>
       </div>
     </div>

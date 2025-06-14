@@ -3,7 +3,7 @@ import { useRef, useState, useEffect } from 'react';
 
 function MusicPlayer({ playlist }) {
   const [current, setCurrent] = useState(0);
-  const [volume, setVolume] = useState(0.15); // Initial volume level
+  const [volume, setVolume] = useState(0.05); // Initial volume level
   const audioRef = useRef(null);
 
   const next = () => setCurrent((current + 1) % playlist.length);
