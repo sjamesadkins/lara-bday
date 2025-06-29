@@ -15,9 +15,9 @@ function MusicPlayer({ playlist }) {
     }
   }, [volume]);
 
-  const handleVolumeChange = (event) => {
-    setVolume(parseFloat(event.target.value));
-  };
+  // const handleVolumeChange = (event) => {
+  //   setVolume(parseFloat(event.target.value));
+  // };
 
   return (
     <>
@@ -27,7 +27,7 @@ function MusicPlayer({ playlist }) {
         <div className="track-info">
           {playlist[current].artist} - {playlist[current].title}
         </div>
-        <div className='music-player-input'>
+        {/* <div className='music-player-input'>
           <input
             type="range"
             // className='music-player-input'
@@ -38,7 +38,7 @@ function MusicPlayer({ playlist }) {
             onChange={handleVolumeChange}
           />
           <div>Volume: {Math.round(volume * 100)}%</div>
-        </div>
+        </div> */}
         <div className="controls">
           <button onClick={prev}>⏮</button>
           <button onClick={() => audioRef.current?.pause()}>⏸</button>

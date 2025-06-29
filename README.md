@@ -1,23 +1,6 @@
 ## PURPOSE
 This site is built to celebrate Lara Turek's 42nd birthday on July 20, 2025.
 
-## SHOUTOUTS
-Heather
-Lauren
-Shannon
-Nicole
-Leigh
-
-Lois
-Kelly - studio manager
-Mom / Dad
-Justin / Vic
-
-Amy
-Stef
-
-Patrick Collins + MS&T? pc5pcn@mst.edu
-
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
