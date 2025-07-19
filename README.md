@@ -1,5 +1,5 @@
 ## PURPOSE
-This site is built to celebrate Lara Turek's 42nd birthday on July 20, 2025. TEST
+This site is built to celebrate Lara Turek's 42nd birthday on July 20, 2025.
 
 # React + Vite
 
