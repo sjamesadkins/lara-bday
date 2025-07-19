@@ -57,6 +57,8 @@ function GiftView() {
         <p >Well done! 🎉</p>
         <br/>
         <p>🎁🎁🎁 Your gift is hidden in the last answer!!! 🎁🎁🎁</p>
+        <br/>
+        <p>❤️🌈❤️ And there is a prize for you behind the curtain... ❤️🌈❤️</p>
       </div>
     );
   }
