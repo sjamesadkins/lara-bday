@@ -16,7 +16,7 @@ const musicPlaylist = [
   { src: '/lara-bday/assets/music/8.mp3', artist: 'B-52s', title: 'Love Shack'},
   { src: '/lara-bday/assets/music/9.mp3', artist: 'The Cure', title: 'Love Song'},
   { src: '/lara-bday/assets/music/11.mp3', artist: 'The Beatles', title: "I'm Only Sleeping"},
-  { src: '/lara-bday/assets/music/12.mp3', artist: 'Sweet Sam', title: 'Pangs'},
+  // { src: '/lara-bday/assets/music/12.mp3', artist: 'Sweet Sam', title: 'Pangs'},
   { src: '/lara-bday/assets/music/13.mp3', artist: 'Simple Minds', title: "Don't You (Forget About Me)"},
   { src: '/lara-bday/assets/music/14.mp3', artist: 'Radiohead', title: 'Everything In Its Right Place'},
   { src: '/lara-bday/assets/music/15.mp3', artist: 'George Harrison', title: 'My Sweet Lord'},
